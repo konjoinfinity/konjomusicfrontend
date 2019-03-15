@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/konjo-music/precache-manifest.b349ba53e6bae14165583d11d2cf9be6.js"
+  "/konjomusicfrontend/precache-manifest.d387cb1648dbf6640997e9cc7a367e91.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/konjo-music/index.html", {
+workbox.routing.registerNavigationRoute("/konjomusicfrontend/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
