@@ -2,15 +2,23 @@
   "name": "konjomusic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://konjoinfinity.github.io/konjomusicfrontend",
+  "homepage": "https://music-backend.onrender.com",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.7.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.8"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
